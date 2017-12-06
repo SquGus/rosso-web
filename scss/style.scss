@@ -1,0 +1,23 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+// 	background-image: url(https://cdn.lynda.com/course/175129/175129-636271814847362281-16x9.jpg);
+// 	background-repeat: no-repeat;
+// 	background-size: cover;
+// 	align-content: center;
+}
+
+#working {
+	height: 100vh;
+	.row {
+		width: 100%;
+		h2 {
+			margin-top: 60px;
+		}
+	}
+}
